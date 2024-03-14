@@ -1,0 +1,83 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    padding: 1rem;
+}
+.flex-one 
+{
+    width: 1010px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 0.2rem 15rem 1rem;
+}
+h1 
+{
+    font-size: 2rem;
+    font-weight: 500;
+    text-decoration: underline;
+}
+#aa 
+{
+    color: rgb(0, 0, 255); 
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+#spa
+{
+    color:Green;
+}
+a 
+{
+    color: rgb(44, 40, 40);
+    font-size: 1rem;
+}
+span 
+{
+    color: rgb(0, 0, 255); font-size: 1rem;
+    font-weight: bold;
+
+}
+.span
+{
+    color: rgb(44, 40, 40); font-size: 0.5rem;
+}
+h2
+{
+    font-size: 2rem;
+    font-weight: 500;
+
+}
+
+.world
+{
+    padding:2rem ;
+}
+.container 
+{
+    width: 1010px;
+    display: grid;
+    gap: 1rem;
+    margin: 0.2rem 15rem 1rem;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: repeat(3, 1fr);
+    place-content: left;
+}
+.box
+{
+    border-radius: 0.1rem;
+    border: 2px solid rgb(131, 121, 121);
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}

@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    padding: 1rem;
+    overflow-x: hidden;
+}
+.flex-one {
+    width: calc(100% - 30rem); 
+    margin: 0 auto; 
+    display: grid;
+    grid-gap: 10px;
+    padding: 0.5rem;
+    grid-template-columns: 1fr; 
+    grid-template-rows: repeat(3, auto);
+}
+h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    text-decoration: underline;
+}
+.blog {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span 
+{
+    color:  rgb(97, 91, 91);
+    font-size: 1rem;
+}
+.para 
+{
+    border: 1px solid grey;
+    padding: 1rem;
+    width: 45rem;
+
+}
+.paras
+{
+    border: 1px solid grey;
+    padding: 0.5rem;
+    width: 45rem;
+
+}
+p
+{
+    width: 40rem;
+    text-align: justify;
+    font-size: 1.1rem !important;
+   
+  
+}
+
+h2 
+{
+    font-size: 1.5rem;
+}
+li 
+{
+    font-size: 15px;
+}
+ul 
+{
+    list-style-type: none;
+    font-size: 1rem;
+
+}
+#ull
+{
+    list-style-type: square;   
+     text-align: justify;
+    margin-left:4rem;
+
+}
+#ulls
+{
+    list-style-type: decimal;   
+     text-align: justify;
+    margin-left:4rem;
+
+}
+
+.list 
+{
+    position: absolute;
+    left: 64rem;
+    width: 16rem;
+    top:5rem;
+    height: fit-content;
+    border-color:2px solid #eeeeee;
+    background-color: #eeeeee;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+ol
+{
+    list-style-type: none;
+    position: absolute;
+    left: 64rem;
+    top:15rem;
+    padding: 1rem;font-size: 1rem;
+
+}
+.head 
+{
+    text-decoration: none;
+
+}
+button 
+{
+    padding: 0.5rem;
+    background-color: transparent;
+    border-radius: 2rem;
+    gap:1rem;
+    color: green;
+}
+
+
+@media screen and (max-width: 768px) {
+    .flex-one {
+        grid-template-columns: 1fr;
+    }
+    .list, ol {
+        position: relative;
+        left: auto;
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .box {
+        padding: 0.5rem;
+    }
+    .head {
+        font-size: 1.2rem;
+    }
+    .list ul, .list ol {
+        margin-left: 0;
+    }
+    .para, .paras {
+        width: auto;
+    }
+    p {
+        width: auto;
+    }
+    button {
+        padding: 0.4rem 0.8rem;
+    }
+}
